@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register Page</title>
+
+
+  <!-- link pemanggil css -->
+  <link rel="stylesheet" href="register.css"> 
+
+</head>
+<body>
+    
+    <!-- pembungkus form register -->
+    <div class="register-container">
+
+        <!-- judul -->
+        <h2>Register</h2>
+
+        <form>
+            <!-- form  input-->
+            <div class="form-input">
+                <p>Name</p>
+                <input type="text" id="username" placeholder="Username" required>
+            </div>
+
+            <div class="form-input">
+                <p>Email</p>
+                <input type="email" id="email" placeholder="Email" required>
+            </div>
+            
+            <div class="form-input">
+                <p>Password</p>
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+           
+            <div class="form-input">
+                <p>Confirm Password</p>
+                <input type="password" id="Confirm Password" placeholder="Confirm Password" required>
+            </div>
+            
+            <!-- tombol untuk Register -->
+            <button type="submit">SignUp</button>
+
+            <p class="to-login">Have a account?
+               <a href="">SignIn</a> 
+            </p>
+            
+        </form>
+
+
+    </div>
+
+</body>
+</html>
